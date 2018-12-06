@@ -25,3 +25,4 @@ CREATE TABLE categories (
   cat_name VARCHAR(100),
   PRIMARY KEY (cat_id)
 );
+
