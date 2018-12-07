@@ -26,3 +26,10 @@ CREATE TABLE categories (
   PRIMARY KEY (cat_id)
 );
 
+ALTER TABLE ads
+ADD COLUMN condition_of_product VARCHAR(100);
+
+ALTER TABLE ads
+drop column condition_of_product;
+
+describe ads;
